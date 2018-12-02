@@ -1,2 +1,2 @@
 Тестовое приложение на react.js по просмотру погоды. Приложение написано в целях самообразования)
-![Скрин проекта] (https://github.com/VanyaNeytrino/weather_react/blob/master/screenshot/Screenshot%202018-12-02%20at%2012.13.47.png)
+![Скрин проекта](https://github.com/VanyaNeytrino/weather_react/blob/master/screenshot/Screenshot%202018-12-02%20at%2012.13.47.png)
