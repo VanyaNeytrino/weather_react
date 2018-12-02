@@ -1,32 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+  font-family: 'FiraSans'
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+
+  background: rgba(73,155,234,1);
+  background: -moz-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(162,32,227,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(162,32,227,1)));
+  background: -webkit-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(162,32,227,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(162,32,227,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(162,32,227,1) 100%);
+  background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(162,32,227,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#a220e3', GradientType=1 );
+}
+
+.main {
+  height: 55vh;
+  background: #2a6bb1;
+  box-shadow: 0px 2px 80px -22px rgba(0,0,0, 0.5);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.info {
+  height: 55vh;
+  background: url("img/bg.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: white
+}
+
+.form {
+  height: 55vh;
+  padding-top: 30px;
+  padding-left: 50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.weath {
+  width: 60%;
+  font-size: 20px;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.img{ 
+  opacity:0.9;
+  -moz-opacity:0.9;
+  filter: alpha(opacity=90) rgb(68, 50, 231);
+  -khtml-opacity: 0.8;
+  background-color:rgb(68, 50, 231);
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
